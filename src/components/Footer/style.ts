@@ -17,7 +17,9 @@ export const ContainerFooter = styled.div`
   gap: 8px;
   margin-bottom: 80px;
 `
-
+export const RedeSocial = styled.img`
+  cursor: pointer;
+`
 export const FooterLogo = styled.div`
   max-width: 100%;
   align-items: center;

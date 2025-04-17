@@ -18,10 +18,4 @@ body {
   background-color: ${cores.fundo};
   color: ${cores.salmao};
 }
-
-.container {
-  max-width: 1024px;
-  width: 100%;
-  margin: 0 auto;
-}
 `

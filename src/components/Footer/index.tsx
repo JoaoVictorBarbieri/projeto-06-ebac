@@ -3,7 +3,8 @@ import {
   ContainerFooter,
   FooterLogo,
   ImagemFooter,
-  FooterP
+  FooterP,
+  RedeSocial
 } from './style'
 import logo from '../../assets/images/logo.png'
 import facebook from '../../assets/images/facebook-round-svgrepo-com.png'
@@ -17,13 +18,13 @@ const Footer = () => (
       </FooterLogo>
       <ContainerFooter>
         <li>
-          <img src={instagram} alt="instagram" />
+          <RedeSocial src={instagram} alt="instagram" />
         </li>
         <li>
-          <img src={facebook} alt="facebook" />
+          <RedeSocial src={facebook} alt="facebook" />
         </li>
         <li>
-          <img src={twitter} alt="twitter" />
+          <RedeSocial src={twitter} alt="twitter" />
         </li>
       </ContainerFooter>
       <FooterP>

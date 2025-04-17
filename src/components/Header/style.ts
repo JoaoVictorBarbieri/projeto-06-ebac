@@ -1,7 +1,7 @@
 import styled from 'styled-components'
 import backgroundImage from '../../assets/images/fundoHeader.png'
 
-export const Cabecalho = styled.header`
+export const Hero = styled.header`
   display: flex;
   flex-direction: column;
   align-items: center;

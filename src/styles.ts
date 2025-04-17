@@ -16,8 +16,8 @@ list-style: none;
 }
 
 body {
-  background-color: ${cores.preta};
-  color: ${cores.branca};
+  background-color: ${cores.branca};
+  color: ${cores.preta};
   padding-top: 40px;
 }
 

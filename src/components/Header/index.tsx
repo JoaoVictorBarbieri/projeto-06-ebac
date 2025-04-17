@@ -1,14 +1,14 @@
 import logo from '../../assets/images/logo.png'
-import { Cabecalho, Imagem, Title, Container } from './style'
+import { Hero, Imagem, Title, Container } from './style'
 const Header = () => (
-  <Cabecalho>
+  <Hero>
     <Imagem src={logo} alt="Efood" />
     <Container>
       <Title>
         Viva experiências gastronômicas <br /> no conforto da sua casa
       </Title>
     </Container>
-  </Cabecalho>
+  </Hero>
 )
 
 export default Header

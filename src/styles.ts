@@ -1,7 +1,7 @@
 import { createGlobalStyle } from 'styled-components'
 export const cores = {
   branca: '#FFFFFF',
-  SalmaoBotao: '#ffebd9',
+  SalmaoClaro: '#ffebd9',
   fundo: '#fff8f1',
   salmao: '#E66767;'
 }
@@ -17,7 +17,6 @@ list-style: none;
 body {
   background-color: ${cores.fundo};
   color: ${cores.salmao};
-  padding-top: 40px;
 }
 
 .container {

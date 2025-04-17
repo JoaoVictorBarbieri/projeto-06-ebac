@@ -2,6 +2,10 @@ import logo from '../../assets/images/logo.png'
 import imagem1 from '../../assets/images/hiokiSushi.png'
 import imagem2 from '../../assets/images/laDolce.png'
 import estrela from '../../assets/images/estrela.png'
+import facebook from '../../assets/images/facebook-round-svgrepo-com.png'
+import twitter from '../../assets/images/twitter-2-svgrepo-com.png'
+import instagram from '../../assets/images/instagram-round-svgrepo-com.png'
+
 import {
   Hero,
   Imagem,
@@ -17,7 +21,12 @@ import {
   ImagemWrapper,
   Botao,
   BotaoContainer,
-  SaibaMaisContainer
+  SaibaMaisContainer,
+  Footer,
+  ContainerFooter,
+  FooterLogo,
+  ImagemFooter,
+  FooterP
 } from './style'
 const Header = () => (
   <>
@@ -215,6 +224,27 @@ const Header = () => (
         </ContainerUl>
       </div>
     </section>
+    <Footer>
+      <FooterLogo>
+        <ImagemFooter src={logo} alt="Efood" />
+      </FooterLogo>
+      <ContainerFooter>
+        <li>
+          <img src={instagram} alt="instagram" />
+        </li>
+        <li>
+          <img src={facebook} alt="facebook" />
+        </li>
+        <li>
+          <img src={twitter} alt="twitter" />
+        </li>
+      </ContainerFooter>
+      <FooterP>
+        A efood é uma plataforma para divulgação de estabelecimentos, a
+        responsabilidade pela entrega, qualidade <br /> dos produtos é toda do
+        estabelecimento contratado.{' '}
+      </FooterP>
+    </Footer>
   </>
 )
 

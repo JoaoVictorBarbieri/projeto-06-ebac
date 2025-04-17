@@ -1,10 +1,9 @@
 import { createGlobalStyle } from 'styled-components'
 export const cores = {
-  branca: '#EEEEEE',
-  preta: '#111',
-  cinza: '#333',
-  verde: '#10AC84',
-  cinzaClaro: '#A3A3A3'
+  branca: '#FFFFFF',
+  SalmaoBotao: '#ffebd9',
+  fundo: '#fff8f1',
+  salmao: '#E66767;'
 }
 export const GlobalCss = createGlobalStyle`
  * {
@@ -16,8 +15,8 @@ list-style: none;
 }
 
 body {
-  background-color: ${cores.branca};
-  color: ${cores.preta};
+  background-color: ${cores.fundo};
+  color: ${cores.salmao};
   padding-top: 40px;
 }
 
